@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <!-- UPDATED: Parent is now Material 3 to match the 1.12.0 dependency -->
+    <style name="Base.Theme.CityPulse" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- M3 uses "colorPrimary" and "colorOnPrimary" for main brand colors -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- "colorPrimaryVariant" is deprecated, but "colorPrimaryContainer" is similar -->
+        <item name="colorPrimaryContainer">@color/purple_700</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <!-- M3 uses "colorSecondary" for other accents -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryContainer</item>
+    </style>
+
+    <style name="Theme.CityPulse" parent="Base.Theme.CityPulse" />
+</resources>
